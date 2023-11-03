@@ -19,12 +19,12 @@ example assertion:
 assert sentence("Hello") == "Hello Benjamin. How are you"
 assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Have you enjoyed your meal"
 
-(2 points) 
+(2 points)
 """
 
-def sentence(x ="hello",y = "benjamin",z = "Have you enjoyed your meal"):
-  
-  return (f"{x} {y}. {z}")
+def sentence(x ="Hello",y ="benjamin",z ="How are you"):
+  p = (f"{x} {y}. {z}")
+  return p
   
 
 

@@ -14,3 +14,12 @@ assert title() == "=========\n= Title =\n========="
 (2 points)
 
 """
+def title(sym = "="):
+    
+    bt = sym*9
+    x = (f"{bt}\n{sym} Title {sym}\n{bt}")
+    return x
+
+if __name__ == "__main__":
+    assert title("*") == "*********\n* Title *\n*********"
+    assert title() == "=========\n= Title =\n========="
